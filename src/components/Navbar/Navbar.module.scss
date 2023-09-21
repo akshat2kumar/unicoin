@@ -1,0 +1,67 @@
+@mixin sign{
+    width: 100px;
+    height: 50px;
+    color: white;
+    border:none;
+    font-family: 'Inter', sans-serif;  
+    font-weight: bold;
+    cursor: pointer;
+}
+$backgroundcolor: #4a291d;
+.navbar{
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    background-color:$backgroundcolor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Inter', sans-serif; 
+    z-index: 1000;
+
+    .unicoin{
+        width: 25%;
+        
+        img{
+            padding-left: 60px;
+            width: 200px;
+        }
+    }
+  
+    .navcontent{
+        width: 55% ;
+        display: flex;
+        gap: 50px;
+        color: white;  
+
+        .customlink {
+            text-decoration: none;
+            color: white;
+          }
+    }
+    .signinup{
+        width: 20%;
+
+        .signin{
+            @include sign;
+            background-color:$backgroundcolor;
+            font-size: 17px;
+            &:hover{
+                color: #c25e1b; 
+               
+            }
+        } 
+        .sign-up{
+            @include sign;
+            background-color: #de8850; 
+            border-radius: 5px;
+            font-size: 20px;
+            transition: background-color 0.2s, color 0.3s;
+            &:hover{
+                background-color: #c25e1b; 
+               
+            }
+        }
+    }
+
+}

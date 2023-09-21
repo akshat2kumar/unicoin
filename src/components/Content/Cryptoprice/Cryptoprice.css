@@ -1,0 +1,35 @@
+
+.crptopricediv{
+    width: 100%;
+   height: 155px; 
+   background-color: #F5F5F5;;
+   }
+   .cryptoprice{
+       padding-top: 20px;
+       height: 132px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding-left: 8%;
+       padding-right: 8%;
+       align-items: center;
+   }
+   .cryptoprice-box{
+       width: 30%;
+       justify-content: center; /* Horizontally center child elements */
+       align-items: center;
+       padding-left: 10px;
+       border-left: 1px solid rgb(215, 212, 212); 
+       border-right: 1px solid rgb(215, 212, 212); 
+       height: 100px;
+   }
+   .green{
+       color: green;
+   }
+   .red{
+       color: red;
+   }
+   .box{
+       margin-left: 30%;
+       width: 100%;
+   }

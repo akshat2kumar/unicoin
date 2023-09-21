@@ -1,0 +1,87 @@
+.Licenseregulation{
+    width: 100%;
+    height: 575px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.Licenseregulation-leftcontent{
+    position: absolute;
+    left: 0;
+    width: 38%;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-right: 2%;
+}
+.leftcontent-heading{
+    font-size: 50px;
+    font-weight:600;
+}
+.leftcontent-para{
+    font-size: 19px;
+    
+    text-align: justify;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.leftcontent-aboutus{
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #de8850; 
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;  
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.leftcontent-aboutus:hover{
+    background-color: #c25e1b; 
+   
+}
+.Licenseregulation-rightcontent{
+    width: 43%;
+    position: absolute;
+    right: 0;
+    padding-left: 7%;
+}
+.rightcontent-one{
+    padding-top: 15%;
+}
+.rightcontent-oneheading{
+    font-size: 25px;
+    font-weight:600;
+}
+.rightcontent-onepara{
+    font-size: 17px;
+    padding-top: 20px;
+}
+.rightcontent-two{
+    padding-top: 15%;
+}
+.rightcontent-twoheading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.rightcontent-twopara{
+    font-size: 17px;
+    padding-top: 20px;
+}
+.Licenseregulationblank{
+    width: 70%;
+    height: 40px;
+    border-bottom: 1px solid rgb(215, 212, 212); 
+}
+.Licenseregulationfade{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.Licenseregulationicon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

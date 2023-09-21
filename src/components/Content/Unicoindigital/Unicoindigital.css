@@ -1,0 +1,38 @@
+
+.unicoindigital{
+    width: 100%;
+    height: 880px;
+    font-family: 'Archivo', sans-serif;
+
+}
+.unicoindigitalmainheading{
+    padding-left: 10%;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.unicoindigital-contentdiv{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 36%); 
+
+}
+.unicoindigital-content{
+    padding-right: 70px;
+}
+.unicoindigital-iconimg{
+    width: 80px;
+    margin-top: 80px;
+}
+.unicoindigital-contentheading{
+    font-size:x-large;
+    font-weight:600;
+    line-height: 1.5;
+}
+.unicoindigital-contentpara{
+    word-spacing: 7px;
+    text-align: justify;
+    line-height: 1.8;
+}

@@ -1,0 +1,33 @@
+.Marketupadates{
+    width:100%;
+   
+    height: 615px;
+    
+   }
+   .Marketupadates-boxdiv{
+       width: 80%;
+       display: flex;
+       padding-left:10% ;
+   }
+   .Marketupadates-mainheading{
+       font-size: 48px;
+       padding-left:10% ;
+       padding-top: 7%;
+   }
+   .Marketupadates-box{
+       padding-right: 8%;
+       padding-top: 3%;
+   }
+   .Marketupadates-boxheading{
+       font-size:26px;
+       font-weight: normal;
+       margin-top: 10px;
+   }
+   .Marketupadates-boxpara{
+       font-size: 18px;
+       margin-top: 20px;
+   }
+   .Marketupadates-learnmore{
+       font-weight: normal;
+       margin-top: 30px;
+   }

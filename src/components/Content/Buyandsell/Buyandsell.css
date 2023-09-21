@@ -1,0 +1,56 @@
+
+.Buyandsell{
+    width: 100%;
+    height: 647px;
+    display: flex;
+}
+.Buyandsell-content{
+   width:40%;
+   padding-left: 8%;
+   position: relative;
+   padding-top: 7%;
+}
+.Buyandsell-contentheading{
+    font-size: 45px;
+    font-weight: 700;
+}
+.Buyandsell-contentpara{
+    margin-top: 13px;
+    line-height: 1.8;
+    font-size: 21px;
+}
+.Buyandsell-qrdiv{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    margin-top: 40px;   
+}
+.Buyandsell-qrdivcontent{
+    margin-left: 40px;
+}
+.scanto{
+    margin-top: 18px;
+}
+.Buyandsell-icon1{
+    width: 25%;
+    position: absolute;
+    right:  0;
+    bottom: 0;
+}
+.Buyandsell-picdiv{
+    width: 50%;
+    position: relative;
+   
+}
+.Buyandsell-phone{
+    width: 80%;
+    position: absolute;
+    top: 124px;
+    right: 171px;
+}
+.Buyandsell-icon2{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

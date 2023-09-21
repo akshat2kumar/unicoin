@@ -1,0 +1,56 @@
+.platformsecurity{
+    width: 100%;
+    display: flex;
+    background-color: #4e2b1df6;
+    height: 710px;
+}
+.platformsecurity-videodiv{
+    width: 42.5%;
+    position: relative;
+    height: 710px;
+}
+.platformsecurity-icon{
+    width: 25%;
+ 
+}
+.platformsecurity-video{
+    width: 75%;
+    position: absolute;
+    right: 40px;
+    top: 175px;
+}
+.platformsecurity-fade{
+    width: 120%;
+    position: absolute;
+    bottom: 0;
+}
+.platformsecurity-content{
+    width: 57.5%;
+    height: 710px;
+    padding-top: 100px;
+}
+.platformsecurity-mainheading{
+    font-size: 45px;
+    color: white;
+}
+.platformsecurity-boxdiv{
+    padding-top: 20px;
+   width: 85%;
+   display: grid;
+ color: white;
+   grid-template-columns: repeat(2, 50%); 
+}
+.platformsecurity-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.platformsecurity-boxheading{
+    font-size: 25px;
+}
+.platformsecurity-boxpara{
+    font-size:large;
+    word-spacing: 6px;
+    margin: 5px;
+   
+    line-height: 1.8;   
+}
